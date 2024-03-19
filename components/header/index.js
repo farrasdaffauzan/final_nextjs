@@ -38,13 +38,13 @@ export default function Header() {
           </div>
 
           <div className=" lg:flex lg:gap-x-12">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
               Home
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/profile" className="text-sm font-semibold leading-6 text-gray-900">
               Profile
             </a>
-            <a href="/notes" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/notifications" className="text-sm font-semibold leading-6 text-gray-900">
               Notification
             </a>
           </div>

@@ -45,7 +45,7 @@ export default function Post() {
   useEffect(() => {
     async function fetchingData() {
       const response = await mutate({
-        url: "https://paace-f178cafcae7b.nevacloud.io/api/posts?type=all",
+        url: "https://paace-f178cafcae7b.nevacloud.io/api/posts?type=me",
         method: "GET",
         headers: {
           Authorization: `Bearer ${Cookies.get("user_token")}`,
